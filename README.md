@@ -136,25 +136,6 @@
 <h3 align="center">
     ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ᴠᴘs 」─
 </h3>
-<p>
-<pre>
-git clone https://github.com/Codeflix-Bots/FileStore
-# Install Packages
-pip3 install -U -r requirements.txt
-Edit info.py with variables as given below then run bot
-python3 bot.py
-</pre>
-</p>
-</details>
-
-<h3>「 ᴄʀᴇᴅɪᴛs 」
-</h3>
-
-- <b>[ᴄᴏᴅᴇғʟɪx ʙᴏᴛs](https://t.me/codeflix_bots)  ➻  [ᴜᴘᴅᴀᴛᴇs](https://t.me/codeflix_bots) </b>
-- <b>[ʏᴀᴛᴏ](https://github.com/sewxiy)  ➻  [sᴏᴍᴇᴛʜɪɴɢ](https://t.me/cosmic_freak) </b>
-- <b>[ʀᴏʜɪᴛ](https://github.com/rohit3607)  ➻  [sᴏᴍᴇᴛʜɪɴɢ](https://t.me/FILE_SHARINGBOTS/17) </b>
- 
-<b>ᴀɴᴅ ᴀʟʟ [ᴛʜᴇ ᴄᴏɴᴛʀɪʙᴜᴛᴏʀs](https://telegram.me/codeflix-bots) ᴡʜᴏ ʜᴇʟᴩᴇᴅ ɪɴ ᴍᴀᴋɪɴɢ file store ʙᴏᴛ ᴜsᴇꜰᴜʟ & ᴩᴏᴡᴇʀꜰᴜʟ 🖤 </b>
 
 ## 📌  𝑵𝒐𝒕𝒆
 
