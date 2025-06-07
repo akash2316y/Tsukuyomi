@@ -47,15 +47,14 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             caption=(
                      f"👋 <b>ʜᴇʏ ʙʀᴏ ᴏʀ sɪs!</b>\n\n"
                      f"🎁 <b>ᴘʀᴇᴍɪᴜᴍ ғᴇᴀᴛᴜʀᴇ ʙᴇɴɪꜰɪᴛꜱ:</b>\n\n"
-                     f"<blockquote>\n"
-                     f"›› ɴᴏ ɴᴇᴇᴅ ᴛᴏ ᴏᴘᴇɴ ʟɪɴᴋꜱ\n"
+                     f"<b><blockquote>\n"
+                     f"❏ ɴᴏ ɴᴇᴇᴅ ᴛᴏ ᴏᴘᴇɴ ʟɪɴᴋꜱ\n"
                      f"❏ ɢᴇᴛ ᴅɪʀᴇᴄᴛ ғɪʟᴇs\n"
-                     f"›› ᴀᴅ-ғʀᴇᴇ ᴇxᴘᴇʀɪᴇɴᴄᴇ\n"
+                     f"❏ ᴀᴅ-ғʀᴇᴇ ᴇxᴘᴇʀɪᴇɴᴄᴇ\n"
                      f"❏ ᴜɴʟɪᴍɪᴛᴇᴅ ᴀᴅᴜʟᴛ ᴄᴏɴᴛᴇɴᴛ\n"
-                     f"›› ꜰᴜʟʟ ᴀᴅᴍɪɴ sᴜᴘᴘᴏʀᴛ\n"
-                     f"❏ ʀᴇǫᴜᴇsᴛ ᴡɪʟʟ ʙᴇ ᴄᴏᴍᴘʟᴇᴛᴇᴅ ɪɴ 𝟷ʜ [ ɪꜰ ᴀᴠᴀɪʟᴀʙʟᴇ ]\n"
-                     f"</blockquote>\n\n"
-                     f"›› <b>ᴄʜᴇᴄᴋᴏᴜᴛ ᴘʀᴇᴍɪᴜᴍ ᴘʟᴀɴs ᴘʀɪᴄᴇs:</b> <a href='https://example.com'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n\n"
+                     f"❏ {PRICE1} /ᴍᴏɴᴛʜ\n"
+                     f"</blockquote></b>\n\n"
+                     f"›› <b>ᴄʜᴇᴄᴋᴏᴜᴛ ᴘʀᴇᴍɪᴜᴍ ᴘʟᴀɴs ᴘʀɪᴄᴇs:</b> <a href='https://telegram.me/OwnAlex>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n\n"
                      f"‼️ <b>ᴀғᴛᴇʀ sᴇɴᴅɪɴɢ ᴀ sᴄʀᴇᴇɴsʜᴏᴛ ᴘʟᴇᴀsᴇ ɢɪᴠᴇ ᴜs sᴏᴍᴇ ᴛɪᴍᴇ ᴛᴏ ᴀᴅᴅ ʏᴏᴜ ɪɴ ᴛʜᴇ ᴘʀᴇᴍɪᴜᴍ ʟɪsᴛ.</b>"
             ),
             reply_markup=InlineKeyboardMarkup(
