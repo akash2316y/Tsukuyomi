@@ -52,7 +52,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
                      f"❏ ɢᴇᴛ ᴅɪʀᴇᴄᴛ ғɪʟᴇs\n"
                      f"❏ ᴀᴅ-ғʀᴇᴇ ᴇxᴘᴇʀɪᴇɴᴄᴇ\n"
                      f"❏ ᴜɴʟɪᴍɪᴛᴇᴅ ᴀᴅᴜʟᴛ ᴄᴏɴᴛᴇɴᴛ\n"
-                     f"❏ {PRICE1} /ᴍᴏɴᴛʜ\n"
+                     f"❏ {PRICE} /ᴍᴏɴᴛʜ\n"
                      f"</blockquote></b>\n\n"
                      f"›› <b>ᴄʜᴇᴄᴋᴏᴜᴛ ᴘʀᴇᴍɪᴜᴍ ᴘʟᴀɴs ᴘʀɪᴄᴇs:</b> <a href='https://telegram.me/OwnAlex>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n\n"
                      f"‼️ <b>ᴀғᴛᴇʀ sᴇɴᴅɪɴɢ ᴀ sᴄʀᴇᴇɴsʜᴏᴛ ᴘʟᴇᴀsᴇ ɢɪᴠᴇ ᴜs sᴏᴍᴇ ᴛɪᴍᴇ ᴛᴏ ᴀᴅᴅ ʏᴏᴜ ɪɴ ᴛʜᴇ ᴘʀᴇᴍɪᴜᴍ ʟɪsᴛ.</b>"
