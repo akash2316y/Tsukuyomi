@@ -1,12 +1,3 @@
-#
-# Copyright (C) 2025 by Codeflix-Bots@Github, < https://github.com/Codeflix-Bots >.
-#
-# This file is part of < https://github.com/Codeflix-Bots/FileStore > project,
-# and is released under the MIT License.
-# Please see < https://github.com/Codeflix-Bots/FileStore/blob/master/LICENSE >
-#
-# All rights reserved.
-
 from pyrogram import Client 
 from bot import Bot
 from config import *
@@ -48,44 +39,33 @@ async def cb_handler(client: Bot, query: CallbackQuery):
         )
 
 
-# Don't Remove Credit @CodeFlix_Bots, @rohit_1888
-# Ask Doubt on telegram @CodeflixSupport
-#
-# Copyright (C) 2025 by Codeflix-Bots@Github, < https://github.com/Codeflix-Bots >.
-#
-# This file is part of < https://github.com/Codeflix-Bots/FileStore > project,
-# and is released under the MIT License.
-# Please see < https://github.com/Codeflix-Bots/FileStore/blob/master/LICENSE >
-#
-# All rights reserved.
-#
-
-
     elif data == "premium":
         await query.message.delete()
         await client.send_photo(
             chat_id=query.message.chat.id,
             photo=QR_PIC,
             caption=(
-                f"👋 {query.from_user.username}\n\n"
-                f"🎖️ Available Plans :\n\n"
-                f"● {PRICE1}  For 0 Days Prime Membership\n\n"
-                f"● {PRICE2}  For 1 Month Prime Membership\n\n"
-                f"● {PRICE3}  For 3 Months Prime Membership\n\n"
-                f"● {PRICE4}  For 6 Months Prime Membership\n\n"
-                f"● {PRICE5}  For 1 Year Prime Membership\n\n\n"
-                f"💵 ASK UPI ID TO ADMIN AND PAY THERE -  <code>{UPI_ID}</code>\n\n\n"
-                f"♻️ After Payment You Will Get Instant Membership \n\n\n"
-                f"‼️ Must Send Screenshot after payment & If anyone want custom time membrship then ask admin"
+                     f"👋 <b>ʜᴇʏ ʙʀᴏ ᴏʀ sɪs!</b>\n\n"
+                     f"🎁 <b>ᴘʀᴇᴍɪᴜᴍ ғᴇᴀᴛᴜʀᴇ ʙᴇɴɪꜰɪᴛꜱ:</b>\n\n"
+                     f"<blockquote>\n"
+                     f"›› ɴᴏ ɴᴇᴇᴅ ᴛᴏ ᴏᴘᴇɴ ʟɪɴᴋꜱ\n"
+                     f"❏ ɢᴇᴛ ᴅɪʀᴇᴄᴛ ғɪʟᴇs\n"
+                     f"›› ᴀᴅ-ғʀᴇᴇ ᴇxᴘᴇʀɪᴇɴᴄᴇ\n"
+                     f"❏ ᴜɴʟɪᴍɪᴛᴇᴅ ᴀᴅᴜʟᴛ ᴄᴏɴᴛᴇɴᴛ\n"
+                     f"›› ꜰᴜʟʟ ᴀᴅᴍɪɴ sᴜᴘᴘᴏʀᴛ\n"
+                     f"❏ ʀᴇǫᴜᴇsᴛ ᴡɪʟʟ ʙᴇ ᴄᴏᴍᴘʟᴇᴛᴇᴅ ɪɴ 𝟷ʜ [ ɪꜰ ᴀᴠᴀɪʟᴀʙʟᴇ ]\n"
+                     f"</blockquote>\n\n"
+                     f"›› <b>ᴄʜᴇᴄᴋᴏᴜᴛ ᴘʀᴇᴍɪᴜᴍ ᴘʟᴀɴs ᴘʀɪᴄᴇs:</b> <a href='https://example.com'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n\n"
+                     f"‼️ <b>ᴀғᴛᴇʀ sᴇɴᴅɪɴɢ ᴀ sᴄʀᴇᴇɴsʜᴏᴛ ᴘʟᴇᴀsᴇ ɢɪᴠᴇ ᴜs sᴏᴍᴇ ᴛɪᴍᴇ ᴛᴏ ᴀᴅᴅ ʏᴏᴜ ɪɴ ᴛʜᴇ ᴘʀᴇᴍɪᴜᴍ ʟɪsᴛ.</b>"
             ),
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
                         InlineKeyboardButton(
-                            "ADMIN 24/7", url=(SCREENSHOT_URL)
+                            "ʙᴜʏ ɴᴏᴡ", url=(SCREENSHOT_URL)
                         )
                     ],
-                    [InlineKeyboardButton("🔒 Close", callback_data="close")],
+                    [InlineKeyboardButton("ᴄʟᴏsᴇ", callback_data="close")],
                 ]
             )
         )
@@ -155,15 +135,3 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(buttons)
         )
 
-
-# Don't Remove Credit @CodeFlix_Bots, @rohit_1888
-# Ask Doubt on telegram @CodeflixSupport
-#
-# Copyright (C) 2025 by Codeflix-Bots@Github, < https://github.com/Codeflix-Bots >.
-#
-# This file is part of < https://github.com/Codeflix-Bots/FileStore > project,
-# and is released under the MIT License.
-# Please see < https://github.com/Codeflix-Bots/FileStore/blob/master/LICENSE >
-#
-# All rights reserved.
-#
