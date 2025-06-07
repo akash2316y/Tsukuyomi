@@ -78,7 +78,7 @@ USER_REPLY_TEXT = "ʙᴀᴋᴋᴀ ! ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴍʏ ꜱᴇɴᴘ
 OWNER_TAG = os.environ.get("OWNER_TAG", "OwnAlex")
 UPI_ID = os.environ.get("UPI_ID", "torettorabha@fam")
 QR_PIC = os.environ.get("QR_PIC", "https://envs.sh/JP6.jpg")
-SCREENSHOT_URL = os.environ.get("SCREENSHOT_URL", f"t.me/OwnAlex")
+SCREENSHOT_URL = os.environ.get("SCREENSHOT_URL", f"https://telegram.me/OwnAlex?text=I%20WANT%20TO%20BUY%20ADULT%20PREMIUM")
 #--------------------------------------------
 #Time and its price
 #1 Month
