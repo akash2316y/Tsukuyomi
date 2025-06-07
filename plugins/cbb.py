@@ -47,21 +47,17 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             caption=(
                      f"👋 <b>ʜᴇʏ ʙʀᴏ ᴏʀ sɪs!</b>\n\n"
                      f"🎁 <b>ᴘʀᴇᴍɪᴜᴍ ғᴇᴀᴛᴜʀᴇ ʙᴇɴɪꜰɪᴛꜱ:</b>\n\n"
-                     f"<b><blockquote>\n"
-                     f"❏ ɴᴏ ɴᴇᴇᴅ ᴛᴏ ᴏᴘᴇɴ ʟɪɴᴋꜱ\n"
+                     f"<b><blockquote>❏ ɴᴏ ɴᴇᴇᴅ ᴛᴏ ᴏᴘᴇɴ ʟɪɴᴋꜱ\n"
                      f"❏ ɢᴇᴛ ᴅɪʀᴇᴄᴛ ғɪʟᴇs\n"
                      f"❏ ᴀᴅ-ғʀᴇᴇ ᴇxᴘᴇʀɪᴇɴᴄᴇ\n"
                      f"❏ ᴜɴʟɪᴍɪᴛᴇᴅ ᴀᴅᴜʟᴛ ᴄᴏɴᴛᴇɴᴛ\n"
-                     f"❏ {PRICE} /ᴍᴏɴᴛʜ\n"
-                     f"</blockquote></b>\n\n"
-                     f"›› <b>ᴄʜᴇᴄᴋᴏᴜᴛ ᴘʀᴇᴍɪᴜᴍ ᴘʟᴀɴs ᴘʀɪᴄᴇs:</b> <a href='https://telegram.me/OwnAlex>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n\n"
-                     f"‼️ <b>ᴀғᴛᴇʀ sᴇɴᴅɪɴɢ ᴀ sᴄʀᴇᴇɴsʜᴏᴛ ᴘʟᴇᴀsᴇ ɢɪᴠᴇ ᴜs sᴏᴍᴇ ᴛɪᴍᴇ ᴛᴏ ᴀᴅᴅ ʏᴏᴜ ɪɴ ᴛʜᴇ ᴘʀᴇᴍɪᴜᴍ ʟɪsᴛ.</b>"
+                     f"❏ {PRICE} /ᴍᴏɴᴛʜ</blockquote></b>\n"
             ),
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
                         InlineKeyboardButton(
-                            "ʙᴜʏ ɴᴏᴡ", url=(SCREENSHOT_URL)
+                            "ʙᴜʏ ", url=(SCREENSHOT_URL)
                         )
                     ],
                     [InlineKeyboardButton("ᴄʟᴏsᴇ", callback_data="close")],
