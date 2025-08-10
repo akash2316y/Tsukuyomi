@@ -11,7 +11,7 @@ API_HASH = os.environ.get("API_HASH", "822cb334ca4527a134aae97f9fe44fd6") #Your 
 
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002670199765")) #Your db channel Id
 OWNER = os.environ.get("OWNER", "OwnAlex") # Owner username without @
-OWNER_ID = int(os.environ.get("OWNER_ID", "7246242686")) # Owner id
+OWNER_ID = int(os.environ.get("OWNER_ID", "8162859297")) # Owner id
 #--------------------------------------------
 PORT = os.environ.get("PORT", "8001")
 #--------------------------------------------
